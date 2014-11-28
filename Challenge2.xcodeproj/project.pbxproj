@@ -14,6 +14,7 @@
 		9A1218221A28F8DB00F26F4F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A1218211A28F8DB00F26F4F /* Images.xcassets */; };
 		9A1218251A28F8DB00F26F4F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A1218231A28F8DB00F26F4F /* LaunchScreen.xib */; };
 		9A1218311A28F8DB00F26F4F /* Challenge2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1218301A28F8DB00F26F4F /* Challenge2Tests.m */; };
+		9A12183C1A28FC7800F26F4F /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A12183B1A28FC7800F26F4F /* City.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		9A12182A1A28F8DB00F26F4F /* Challenge2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Challenge2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A12182F1A28F8DB00F26F4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A1218301A28F8DB00F26F4F /* Challenge2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Challenge2Tests.m; sourceTree = "<group>"; };
+		9A12183A1A28FC7800F26F4F /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		9A12183B1A28FC7800F26F4F /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				9A12181B1A28F8DB00F26F4F /* ViewController.h */,
 				9A12181C1A28F8DB00F26F4F /* ViewController.m */,
 				9A12181E1A28F8DB00F26F4F /* Main.storyboard */,
+				9A12183A1A28FC7800F26F4F /* City.h */,
+				9A12183B1A28FC7800F26F4F /* City.m */,
 				9A1218211A28F8DB00F26F4F /* Images.xcassets */,
 				9A1218231A28F8DB00F26F4F /* LaunchScreen.xib */,
 				9A1218141A28F8DB00F26F4F /* Supporting Files */,
@@ -221,6 +226,7 @@
 			files = (
 				9A12181D1A28F8DB00F26F4F /* ViewController.m in Sources */,
 				9A12181A1A28F8DB00F26F4F /* AppDelegate.m in Sources */,
+				9A12183C1A28FC7800F26F4F /* City.m in Sources */,
 				9A1218171A28F8DB00F26F4F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
